@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusted Seasonal Home Care for Wheaton Residents</title>
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Sticky Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm border-b">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <h1 class="text-lg md:text-xl font-bold text-green-700">🏠 Seasonal Home Care</h1>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#services" class="text-gray-600 hover:text-green-700 transition-colors">Services</a>
+                    <a href="#about" class="text-gray-600 hover:text-green-700 transition-colors">About</a>
+                    <a href="#contact" class="text-gray-600 hover:text-green-700 transition-colors">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-600">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t pt-4">
+                <a href="#services" class="block py-2 text-gray-600 hover:text-green-700 transition-colors">Services</a>
+                <a href="#about" class="block py-2 text-gray-600 hover:text-green-700 transition-colors">About</a>
+                <a href="#contact" class="block py-2 text-gray-600 hover:text-green-700 transition-colors">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-green-50 to-blue-50 py-12 md:py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="mb-8">
+                    <div class="inline-flex items-center bg-white rounded-full px-6 py-3 shadow-sm mb-6">
+                        <span class="text-2xl mr-2">🍂</span>
+                        <span class="text-green-700 font-medium">Serving Wheaton & DuPage County</span>
+                    </div>
+                </div>
+                <h1 class="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Trusted Seasonal Home Care for Wheaton Residents
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                    Reliable year-round home maintenance solutions that keep your property well-maintained through every season.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#contact" class="bg-green-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-800 transition-colors">
+                        Get Free Estimate
+                    </a>
+                    <a href="#services" class="bg-white text-green-700 px-8 py-3 rounded-lg font-semibold border border-green-700 hover:bg-green-50 transition-colors">
+                        View Services
+                    </a>
+                </div>
+                <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div class="bg-white rounded-lg p-4 shadow-sm">
+                        <div class="text-2xl mb-2">🌸</div>
+                        <div class="text-sm font-medium text-gray-700">Spring Cleanup</div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 shadow-sm">
+                        <div class="text-2xl mb-2">☀️</div>
+                        <div class="text-sm font-medium text-gray-700">Summer Care</div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 shadow-sm">
+                        <div class="text-2xl mb-2">🍁</div>
+                        <div class="text-sm font-medium text-gray-700">Fall Prep</div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 shadow-sm">
+                        <div class="text-2xl mb-2">❄️</div>
+                        <div class="text-sm font-medium text-gray-700">Winter Service</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Complete Home Care Services
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                        From seasonal maintenance to year-round property care, we keep your Wheaton home in perfect condition.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">🌱</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Lawn & Garden Care</h3>
+                        <p class="text-gray-600 mb-4">Professional lawn maintenance, landscaping, and garden care to keep your outdoor spaces beautiful year-round.</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Regular mowing & trimming</li>
+                            <li>• Seasonal plantings</li>
+                            <li>• Garden maintenance</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">❄️</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Snow Removal</h3>
+                        <p class="text-gray-600 mb-4">Reliable snow and ice removal services to keep your property safe and accessible during winter months.</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Driveway clearing</li>
+                            <li>• Walkway maintenance</li>
+                            <li>• Ice treatment</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">🔧</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Property Maintenance</h3>
+                        <p class="text-gray-600 mb-4">General home upkeep and maintenance services to preserve your property's value and appearance.</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Routine inspections</li>
+                            <li>• Minor repairs</li>
+                            <li>• Preventive care</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">🍂</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Seasonal Cleanup</h3>
+                        <p class="text-gray-600 mb-4">Comprehensive seasonal cleaning and preparation services to ready your home for each season.</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Leaf removal</li>
+                            <li>• Gutter cleaning</li>
+                            <li>• Seasonal prep</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">🏡</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Home Exterior Care</h3>
+                        <p class="text-gray-600 mb-4">Exterior maintenance services to protect and enhance your home's curb appeal and structural integrity.</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Exterior cleaning</li>
+                            <li>• Deck maintenance</li>
+                            <li>• Siding care</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
+                        <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-2xl">🛠️</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Custom Solutions</h3>
+                        <p class="text-gray-600 mb-4">Tailored maintenance plans and services designed to meet your specific home care needs and schedule.</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Custom scheduling</li>
+                            <li>• Specialized services</li>
+                            <li>• Flexible plans</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Your Local Wheaton Home Care Partner
+                    </h2>
+                    <p class="text-lg text-gray-600">
+                        Dedicated to keeping your property beautiful and well-maintained throughout every season.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="w-full h-64 bg-gradient-to-br from-green-200 to-blue-200 rounded-xl flex items-center justify-center">
+                            <div class="text-center">
+                                <div class="text-6xl mb-4">🏠</div>
+                                <div class="text-lg font-semibold text-gray-700">Professional Home Care</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Community-Focused Service</h3>
+                            <p class="text-gray-600">
+                                Seasonal Home Care is proudly located right here in Wheaton, serving homeowners throughout DuPage County with reliable, professional home maintenance services. We understand the unique needs of our local community and climate.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Year-Round Reliability</h3>
+                            <p class="text-gray-600">
+                                From spring cleanup to winter snow removal, we provide consistent, dependable service that adapts to each season's demands. Your property deserves care that matches the changing needs throughout the year.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-3">Professional Excellence</h3>
+                            <p class="text-gray-600">
+                                We take pride in delivering high-quality workmanship and exceptional customer service. Every job is completed with attention to detail and respect for your property and schedule.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-16 grid md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="text-3xl mb-4">🌟</div>
+                        <h4 class="font-semibold text-gray-900 mb-2">Quality Service</h4>
+                        <p class="text-gray-600 text-sm">Professional workmanship and attention to detail in every project</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="text-3xl mb-4">🤝</div>
+                        <h4 class="font-semibold text-gray-900 mb-2">Local Trust</h4>
+                        <p class="text-gray-600 text-sm">Serving Wheaton and surrounding communities with integrity</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm">
+                        <div class="text-3xl mb-4">📅</div>
+                        <h4 class="font-semibold text-gray-900 mb-2">Reliable Scheduling</h4>
+                        <p class="text-gray-600 text-sm">Consistent service you can count on throughout the seasons</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                        Get Your Free Estimate Today
+                    </h2>
+                    <p class="text-lg text-gray-600">
+                        Ready to start your seasonal home care? Contact us for a personalized estimate.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <span class="text-xl">📍</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-900 mb-1">Our Location</h4>
+                                    <p class="text-gray-600">1039 College Ave Unit H<br>Wheaton, IL 60187</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <span class="text-xl">📞</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-900 mb-1">Phone</h4>
+                                    <p class="text-gray-600">(555) 123-4567</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <span class="text-xl">✉️</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-medium text-gray-900 mb-1">Email</h4>
+                                    <p class="text-gray-600">info@seasonalhomecare.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-gray-50 rounded-xl p-6">
+                            <h4 class="font-semibold text-gray-900 mb-3">Service Areas</h4>
+                            <p class="text-gray-600 mb-3">Proudly serving:</p>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Wheaton, IL</li>
+                                <li>• Glen Ellyn, IL</li>
+                                <li>• Carol Stream, IL</li>
+                                <li>• Winfield, IL</li>
+                                <li>• Surrounding DuPage County Communities</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <form class="bg-gray-50 rounded-xl p-8">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-6">Request Free Estimate</h3>
+                            
+                            <div class="grid md:grid-cols-2 gap-4 mb-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+                                    <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="John">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+                                    <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Smith">
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                                <input type="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="john@example.com">
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                                <input type="tel" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="(555) 123-4567">
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Service Needed</label>
+                                <select class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500">
+                                    <option>Select a service</option>
+                                    <option>Lawn & Garden Care</option>
+                                    <option>Snow Removal</option>
+                                    <option>Property Maintenance</option>
+                                    <option>Seasonal Cleanup</option>
+                                    <option>Home Exterior Care</option>
+                                    <option>Custom Solutions</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-6">
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+                                <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Tell us about your home care needs..."></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-green-700 text-white py-3 rounded-lg font-semibold hover:bg-green-800 transition-colors">
+                                Send Request
+                            </button>
+                            
+                            <p class="text-xs text-gray-500 mt-3 text-center">
+                                We'll respond within 24 hours with your free estimate.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid md:grid-cols-4 gap-8 mb-8">
+                    <div class="md:col-span-2">
+                        <h3 class="text-xl font-bold mb-4">🏠 Seasonal Home Care</h3>
+                        <p class="text-gray-400 mb-4">
+                            Reliable year-round home maintenance solutions for Wheaton and surrounding DuPage County communities.
+                        </p>
+                        <div class="text-gray-400">
+                            <p>1039 College Ave Unit H</p>
+                            <p>Wheaton, IL 60187</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold mb-4">Services</h4>
+                        <ul class="space-y-2 text-gray-400">
+                            <li>Lawn & Garden Care</li>
+                            <li>Snow Removal</li>
+                            <li>Property Maintenance</li>
+                            <li>Seasonal Cleanup</li>
+                            <li>Home Exterior Care</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold mb-4">Contact</h4>
+                        <ul class="space-y-2 text-gray-400">
+                            <li>(555) 123-4567</li>
+                            <li>info@seasonalhomecare.com</li>
+                            <li>Free Estimates</li>
+                            <li>Licensed & Insured</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-gray-400 mb-4 md:mb-0">
+                        © 2026 Seasonal Home Care. All rights reserved.
+                    </div>
+                    <div class="text-xs text-gray-500">
+                        Preview site by Nick Sheetz
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
